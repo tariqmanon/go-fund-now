@@ -12,7 +12,7 @@ body {
 }
 
 section {
-    padding: 100px;
+    padding: 100px 0px;
 }
 
 .flexible-container {
@@ -53,4 +53,74 @@ section {
     display: inline-block;
     margin: 20px 0px;
     border-radius: 5px;
+}
+
+.donate-today {}
+
+.donate-today h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.donate-today p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.donate-amount {
+    margin: 50px 0px;
+}
+
+.amount {
+    width: 18%;
+    text-align: center;
+    background-color: #FAFAFA;
+    padding: 60px 15px;
+    text-align: center;
+    margin: 0px 10px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#amount-item {
+    border: 2px solid #FF5959;
+    color: #FF5959;
+
+}
+
+.donate-form {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fonr-control {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    height: 30px;
+}
+
+::placeholder {
+    color: #B3B3B3;
+    margin-bottom: 10px !important;
+
+}
+
+.donate-now {
+    background-color: #FF5959;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: none;
 }
